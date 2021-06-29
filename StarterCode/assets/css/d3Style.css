@@ -28,12 +28,19 @@
   font-family: sans-serif;
   fill: #fff;
   text-anchor: middle;
+  /*text-align: center;
+  font-size: 12px; */
 }
 
 .stateCircle {
-  fill: #89bdd3;
   stroke: #e3e3e3;
-}
+  fill: #89bdd3;
+  /*text-anchor: middle;
+  text-align: center;
+  font-size: 12px;
+  opacity: .50;*/
+  
+  }
 
 .chart {
   display: block;
@@ -50,6 +57,8 @@
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 4px;
+  /*position: absolute;*/
+
 }
 
 /* Mobile Rules */
